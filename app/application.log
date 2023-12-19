@@ -1,0 +1,45 @@
+2023-10-30 06:55:58 DEBUG Time to complete the reqeuest: 4.597902297973633e-06 milliseconds
+2023-10-30 06:55:58 ERROR Endpoint that cause the issue:  /bot-score
+2023-10-30 06:55:58 ERROR Validation error occurred because: [{'type': 'float_parsing', 'loc': ('body', 'x1'), 'msg': 'Input should be a valid number, unable to parse string as a number', 'input': 'a', 'url': 'https://errors.pydantic.dev/2.4/v/float_parsing'}]
+2023-10-30 06:55:58 DEBUG Time to complete the reqeuest: 1.997947692871094e-06 milliseconds
+2023-10-30 06:55:58 ERROR Endpoint that cause the issue:  /bot-score
+2023-10-30 06:55:58 ERROR Validation error occurred because: [{'type': 'extra_forbidden', 'loc': ('body', 'x3'), 'msg': 'Extra inputs are not permitted', 'input': 0.99, 'url': 'https://errors.pydantic.dev/2.4/v/extra_forbidden'}]
+2023-10-30 06:55:58 DEBUG Time to complete the reqeuest: 1.0046958923339845e-06 milliseconds
+2023-10-30 06:55:58 DEBUG Time to complete the reqeuest: 3.0071735382080077e-06 milliseconds
+2023-10-30 06:55:58 ERROR Endpoint that cause the issue:  /bot-score
+2023-10-30 06:55:58 ERROR Validation error occurred because: [{'type': 'float_parsing', 'loc': ('body', 'x1'), 'msg': 'Input should be a valid number, unable to parse string as a number', 'input': '', 'url': 'https://errors.pydantic.dev/2.4/v/float_parsing'}, {'type': 'float_parsing', 'loc': ('body', 'x2'), 'msg': 'Input should be a valid number, unable to parse string as a number', 'input': '', 'url': 'https://errors.pydantic.dev/2.4/v/float_parsing'}]
+2023-10-30 06:55:58 DEBUG Time to complete the reqeuest: 1.096487045288086e-06 milliseconds
+2023-10-30 06:55:59 DEBUG Time to complete the reqeuest: 1.0001659393310548e-06 milliseconds
+2023-10-30 06:55:59 DEBUG detected 'bcrypt' backend, version '3.2.0'
+2023-10-30 06:55:59 DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+2023-10-30 06:55:59 DEBUG Time to complete the reqeuest: 0.00028156280517578126 milliseconds
+2023-10-30 06:55:59 ERROR on registering the user:(sqlite3.IntegrityError) UNIQUE constraint failed: users.username
+[SQL: INSERT INTO users (username, password) VALUES (?, ?)]
+[parameters: ('TestCase1', '$2b$12$1xJQPMyAHXgEmA6nh6JVzui86OXBOZ/h66ly4NpNtfNqqzFS68bsu')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2023-10-30 06:55:59 DEBUG Time to complete the reqeuest: 0.0002439885139465332 milliseconds
+2023-10-30 06:55:59 DEBUG Request json recieved for /login endpoint: TestCase1
+2023-10-30 06:55:59 DEBUG Time to complete the reqeuest: 0.0002488727569580078 milliseconds
+2023-10-30 06:55:59 DEBUG Request json recieved for /login endpoint: TestCase1
+2023-10-30 06:56:00 ERROR Invalid username and/or password
+2023-10-30 06:56:00 DEBUG Time to complete the reqeuest: 0.0002452528476715088 milliseconds
+2023-10-30 06:56:00 DEBUG Time to complete the reqeuest: 0.0 milliseconds
+2023-10-30 06:56:00 DEBUG Request json recieved for /login endpoint: TestCase1
+2023-10-30 06:56:00 DEBUG Time to complete the reqeuest: 0.0002458755970001221 milliseconds
+2023-10-30 06:56:00 DEBUG Time to complete the reqeuest: 2.2826194763183593e-06 milliseconds
+2023-10-30 06:56:48 DEBUG Time to complete the reqeuest: 2.0229816436767577e-06 milliseconds
+2023-10-30 06:56:49 DEBUG Time to complete the reqeuest: 1.1003732681274414e-05 milliseconds
+2023-10-30 07:51:51 DEBUG Request json recieved for /login endpoint: -hassanDocker3
+2023-10-30 07:51:51 ERROR Invalid username and/or password
+2023-10-30 07:51:51 DEBUG Time to complete the reqeuest: 9.192705154418946e-06 milliseconds
+2023-10-30 07:51:56 DEBUG Request json recieved for /login endpoint: -hassanDocker3
+2023-10-30 07:51:56 ERROR Invalid username and/or password
+2023-10-30 07:51:56 DEBUG Time to complete the reqeuest: 3.4725666046142577e-06 milliseconds
+2023-10-30 07:53:51 DEBUG Request json recieved for /login endpoint: -hassanDocker3
+2023-10-30 07:53:51 ERROR Invalid username and/or password
+2023-10-30 07:53:51 DEBUG Time to complete the reqeuest: 8.01849365234375e-06 milliseconds
+2023-10-30 07:53:57 DEBUG Request json recieved for /login endpoint: -hassanDocker3
+2023-10-30 07:53:57 ERROR Invalid username and/or password
+2023-10-30 07:53:57 DEBUG Time to complete the reqeuest: 1.0003328323364258e-05 milliseconds
+2023-10-30 07:54:07 ERROR Invalid toke was provided for the request Signature verification failed
+2023-10-30 07:54:07 DEBUG Time to complete the reqeuest: 4.000425338745117e-06 milliseconds
